@@ -1,0 +1,66 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: lightgray;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: lightgray;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: lightgray;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: .5px;
+
+    background-color: lightgray;
+}
+
+input[type='radio'] {
+    accent-color: #4dc038;
+
+}
+
+.bg-green {
+    background-color: #4dc038;
+}
+
+.text-lightgray {
+    color: lightgray;
+}
+
+.text-grey {
+    color: grey;
+}
+
+.text-blue {
+    color: rgb(20, 20, 130);
+}
+
+.text-green {
+    color: #4dc038;
+}
+
+.display-7 {
+    font-size: 12px;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 95%;
+}
+
+
+
